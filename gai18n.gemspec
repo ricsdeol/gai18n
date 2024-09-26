@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{lib,bin}/**/*', 'CHANGELOG.md', 'Rakefile', 'README.md', 'LICENSE.txt', 'CODE_OF_CONDUCT.md']
   s.executables = ['gai18n']
 
-  s.required_ruby_version = '>= 3.0.0'
+  s.required_ruby_version = '>= 2.7.8'
 
   s.add_dependency 'ruby-openai', '~> 6.2'
   s.add_dependency 'git', '~> 1.19'
